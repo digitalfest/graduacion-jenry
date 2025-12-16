@@ -1,0 +1,244 @@
+    :root {
+      --azul-salesiano: #002e6d;
+      --amarillo-salesiano: #B12C00;
+    }
+
+    body {
+      background-image: url('../image/vintage-wallpaper.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2.5rem;
+      color: white;
+      font-size: 1.1rem;
+    }
+
+    .nombres {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .titulo {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.1rem;
+      color: white;
+    }
+
+    .nombre-graduado {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.3rem;
+      color: var(--amarillo-salesiano);
+      margin-bottom: 0px;
+      font-weight: 500;
+    }
+
+    .padrinos {
+      color: var(--amarillo-salesiano);
+    }
+
+    .btn-ubicacion {
+      background-color: var(--azul-salesiano);
+      color: white;
+      border: none;
+    }
+
+    .btn-ubicacion:hover {
+      background-color: #001f4d;
+    }
+
+    .numero {
+      color: var(--amarillo-salesiano);
+      font-size: 3.5rem;
+      margin: 0px;
+      padding: 0px;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 700;
+      height: 20px;
+    }
+
+    .dia,
+    .year,
+    .hora {
+      margin-bottom: 0px;
+      font-weight: 500;
+      color: white;
+      font-size: 1.1rem;
+    }
+
+    .mes {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4.3rem;
+      padding: 0px;
+      margin: 0px auto 0px;
+      height: 90px;
+    }
+
+
+    .dpp {
+      margin-bottom: 0px;
+      font-weight: 500;
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .dsp {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.8rem;
+      color: var(--amarillo-salesiano);
+      margin-bottom: 0px;
+    }
+
+    #contador {
+      font-size: 1.3rem;
+      color: white;
+      font-weight: 500;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    /* Línea vertical del timeline */
+    .timeline {
+      border-left: 3px solid #f4c300;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+
+    /* Cada evento se comporta como una fila */
+    .event {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 30px;
+    }
+
+    /* Hora a la izquierda */
+    .left .time {
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--amarillo-salesiano);
+      margin-right: 20px;
+      min-width: 80px;
+      text-align: right;
+      margin-top: 10%;
+    }
+
+    /* Ícono + descripción a la derecha */
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* horizontal center */
+      justify-content: center; /* vertical center */
+      text-align: center;
+      flex: 1;
+    }
+
+    .right .icon {
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 0px;
+    }
+
+    .right .desc {
+      font-style: italic;
+      color: white;
+      font-size: 1rem;
+      margin-top: -10px;
+    }
+
+
+    .hero {
+      min-height: 90svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); /* opcional para oscurecer el fondo */
+      padding: 2rem;
+      border-radius: 25px;
+    }
+
+    .hero-content {
+      max-width: 700px;
+    }
+
+    .hero-logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text {
+      font-size: 1.3rem;
+      color: var(--amarillo-salesiano);
+      line-height: 1.6;
+    }
+
+    .hero-name {
+      font-size: 1.3rem;
+      color: white;
+      line-height: 1.0;
+      font-weight: 500;
+    }
+
+    .hero-name-second {
+      font-size: 1.8rem;
+      color: var(--amarillo-salesiano);
+      line-height: 1.3;
+      font-weight: 600;
+    }
+
+    .btn-invitacion {
+      background: linear-gradient(135deg, #B12C00, #7A0F00);
+      color: #002e6d;
+      font-weight: 600;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn-invitacion:hover {
+      background: linear-gradient(135deg, #B12C00, #7A0F00);
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .imagen-icon {
+      width: 60px;
+      margin-bottom: 10px;
+      filter: invert(1);
+    }
+
+    .mute-button {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 9999;
+      border: none;
+      background-color: #B12C00; /* Amarillo con opacidad del 80% */
+      padding: 8px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(3px); /* opcional: da un efecto de vidrio */
+    }

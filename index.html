@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitación - Graduacion Jenry</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+<body>
+  
+  <!-- Botón de silenciar -->
+  <button id="mute-btn" class="mute-button" title="Silenciar o Activar">
+    <img id="mute-icon" src="image/volumen.png" alt="Volumen" style="width: 24px; height: 24px;">
+  </button>
+
+  <!-- Presentación / Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-name">UNIDAD EDUCATIVA</p>
+      <p class="hero-name-second">"CALAMA TARDE"</p>
+      <img src="image/escudo-calama.png" alt="Logo USB" class="hero-logo">
+      <p class="title">Solemne Acto de Graduaci&oacute;n</p>
+      <p class="hero-text fst-italic">
+        CON AMOR ETERNO A NUESTROS PADRES
+      </p>
+      <a href="#invitacion" id="btnIniciarMusica" class="btn-invitacion mt-3">Ver Invitación</a>
+    </div>
+  </section>
+
+  <!-- Audio oculto -->
+  <audio id="musicaFondo" src="audio/A Donde Va El Viento - Julieta Venegas (320).mp3" loop preload="auto"></audio>
+
+  
+  
+
+  <div id="invitacion"></div>
+  <div class="container p-4 rounded border border-danger shadow" style="background-color: rgba(88, 88, 88, 0.4);">
+    
+    <!-- Invitación -->
+    <section>
+      <p>Con el corazón lleno de gratitud,</p>
+      <p class="nombres">Freddy Fernandez Suxo<br> Rosario Quinta Quispe</p>
+      <p>les invitan cordialmente a celebrar el acto de graduaci&oacute;n de nuestro hijo</p>
+      <p class="nombre-graduado">Jenry Fernandez Quinta</p>
+      <p>Un momento que marca el cierre de un capítulo y el inicio de muchos sueños.</p>
+    </section>
+
+    <!-- Linea divisoria -->
+    <section>
+      <hr>
+    </section>
+
+    <!-- Padrinos de Colación -->
+    <section>
+      <p class="titulo">Acto de Graduaci&oacute;n</p>
+      <p class="text" >
+        El acto academico se efectuara el dia Viernes 19 de Diciembre de la presente 
+        gesti&oacute;n a hrs. 14:00 p.m. en el teatro "Radio San Gabriel", ubicado en
+         la plaza de la cruz entre la Av. Julio Cesar Valdez y Av. Bolivia     
+      </p>
+    </section>
+
+    <!-- Linea divisoria -->
+    <section>
+      <hr>
+    </section>
+
+    <!-- Fecha y hora -->
+    <section>
+      <p>EL EVENTO SERÁ ESTE:</p>
+      <p class="dia">VIERNES</p>
+      <h2 class="numero">19</h2>
+      <p class="mes">diciembre</p>
+      <p class="year">2025</p>
+      <p class="hora">A LAS 14:00 HRS.</p>
+    </section>
+
+    <!-- Linea divisoria -->
+    <section>
+      <hr>
+    </section>
+
+    <!-- Ubicación -->
+    <section>
+      <p class="titulo">Recepción Social</p>
+      <p>
+        Zona Caluyo, Calle 10, Nro 158 (Cruce Villa Adela)
+      </p>
+      <a href="https://maps.app.goo.gl/DGZJ3ydtJsfbSYtPA" target="_blank"
+        class="btn px-4 py-2"
+        style="background: linear-gradient(135deg, #B12C00, #7A0F00); color:var(--azul-salesiano); border: none; font-weight: 500; width: 90%;">
+        VER UBICACIÓN
+      </a>
+    </section>
+
+    <!-- Linea divisoria -->
+    <section>
+      <hr>
+    </section>
+
+    <!-- Contador -->
+    <section>
+      <p class="titulo">Faltan:</p>
+      <p id="contador">Calculando...</p>
+    </section>
+
+    <!-- Linea divisoria -->
+    <section>
+      <hr>
+    </section>
+
+    <!-- Despedida -->
+    <section>
+      <p class="dpp">¡CELEBREMOS JUNTOS</p>
+      <p class="dsp">los esperamos!</p>
+    </section>
+
+  </div>
+
+<script src="js/main.js"></script> 
+</body>
+</html>
