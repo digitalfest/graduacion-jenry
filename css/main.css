@@ -4,7 +4,7 @@
     }
 
     body {
-      background-image: url('../image/vintage-wallpaper.png');
+      background-image: url('../image/23847b19-1d5c-4249-9f22-8827c6017007.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -33,7 +33,7 @@
       font-size: 2.3rem;
       color: var(--amarillo-salesiano);
       margin-bottom: 0px;
-      font-weight: 500;
+      font-weight: 900;
     }
 
     .padrinos {
@@ -90,6 +90,7 @@
       font-size: 3.8rem;
       color: var(--amarillo-salesiano);
       margin-bottom: 0px;
+      font-weight: 600;
     }
 
     #contador {
@@ -176,6 +177,7 @@
       font-size: 1.3rem;
       color: var(--amarillo-salesiano);
       line-height: 1.6;
+      font-weight: 600;
     }
 
     .hero-name {
@@ -194,7 +196,7 @@
 
     .btn-invitacion {
       background: linear-gradient(135deg, #B12C00, #7A0F00);
-      color: #002e6d;
+      color: #c5d2e4;
       font-weight: 600;
       padding: 0.75rem 2rem;
       border: none;
